@@ -6,6 +6,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Shop from "./components/Shop";
+import Home from "./components/Home";
 import ProductPage from "./components/ProductPage";
 import Cart from "./components/Cart";
 import products from "./products";
@@ -83,6 +84,10 @@ function App() {
         <Routes>
           <Route
             path="/"
+            element={<Home />}
+          />
+          <Route
+            path="/shop"
             element={<Shop products={products} addToCart={addToCart} />}
           />
           <Route
