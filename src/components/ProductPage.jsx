@@ -13,17 +13,19 @@ const ProductPage = ({ addToCart }) => {
   };
 
   return (
-    <div>
-      <img src={product.image} alt={product.name} />
-      <h3>{product.name}</h3>
-      <p>${product.price}</p>
+    <div className="product-page-container">
+      <img className='product-image' src={product.image} alt={product.name} />
+     <div className="product-info">
+      <h2>{product.name}</h2>
+      <p className='price'>${product.price}</p>
       <ul>
         {product.keyFeatures.map((feature, index) => (
           <li key={index}>{feature}</li>
         ))}
       </ul>
-      <p>{product.description}</p>
+      <p className="product-description">{product.description}</p>
       <button onClick={handleAddToCart}>Add to Cart</button>
+    </div>
     </div>
   );
 };

@@ -49,9 +49,10 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #1f4ae7;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin-top:30px;
 }
 button:hover {
   border-color: #646cff;
@@ -185,4 +186,33 @@ nav ul li a {
 .logo {
   color: white;
   margin: 0;
+}
+
+.product-page-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-image {
+  min-width: 300px;
+  max-width: 700px;
+  max-height: 600px;
+  margin: 50px;
+  margin-bottom: 0;
+  object-fit: contain;
+}
+
+.product-info {
+  flex: 1 1 300px; /* Expands to fill available space, with a minimum width of 300px */
+  margin: 50px;
+  min-width: 300px;
+  
+}
+
+.product-description {
+  margin-top: 40px;
+}
+
+.price {
+  font-size: 2rem;
 }
