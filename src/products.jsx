@@ -1,3 +1,8 @@
+import guitar1 from "./assets/guitar1.webp";
+import keyboard1 from "./assets/keyboard1.webp";
+import mic1 from "./assets/mic1.webp";
+import key1 from "./assets/key1.webp";
+
 const products = [
   {
     name: "Squier Classic Vibe 70's Stratocaster - Olympic White",
@@ -10,7 +15,7 @@ const products = [
     ],
     description:
       "A tip of the hat to the large-headstock Strat® models produced in the 1970s, the Classic Vibe ‘70s Stratocaster creates incredible tone courtesy of a trio of Fender-Designed alnico single-coil pickups. Player-friendly features include a slim and comfortable “C”-shaped neck profile with an easy-playing 9.5”-radius fingerboard and narrow-tall frets, as well as a vintage-style tremolo system for expressive string bending effects. This throwback Squier model also features 1970s inspired headstock markings, nickel-plated hardware and a slick vintage-tinted gloss neck finish for an old-school aesthetic vibe.",
-    image: "src/assets/guitar1.webp",
+    image: guitar1,
     make: "Squire",
   },
   {
@@ -24,7 +29,7 @@ const products = [
     ],
     description:
       "The Nord Electro 6 combines their award-winning emulations of vintage electro mechanical and acoustic instruments in an ultra-portable package. With 3 independent sound sections, a new streamlined user interface and the addition of Seamless Transitions, we're proud to present the most powerful and flexible Electro ever - a refined modern classic.",
-    image: "src/assets/keyboard1.webp",
+    image: keyboard1,
     make: "Nord",
   },
   {
@@ -38,7 +43,7 @@ const products = [
     ],
     description:
       'A professional large capsule (1") versatile studio microphone incorporating three-position pick-up patterns, PAD and high pass filter switches conveniently located on the body. The frequency and transient response has been voiced to complement todays modern recording techniques, and yet still evoke the silky smooth character of the legendary microphones of the 50s and 60s. Package includes SM6 shock mount with integrated pop filter, 3m (10") XLR cable and dustcover.',
-    image: "src/assets/mic1.webp",
+    image: mic1,
     make: "RODE",
   },
   {
@@ -52,7 +57,7 @@ const products = [
     ],
     description:
       "Launchkey is our intuitive and fully integrated MIDI keyboard controller for making tracks in Ableton Live and with your external equipment. The Launchkey experience is designed for players of all types and abilities. With Launchkey, regardless of experience, you can create and play your music like never before. With its various musical creation features, all of which can be used standalone, Launchkey removes barriers to creativity, and expands the musical vocabulary of even the most talented keyboardists. Eight Scale modes guide you into new musical territory, by transposing keys played to notes in the scale selected. Simply choose your root note and your preferred scale, then play. Three Chord modes transform the keys and pads into an interactive surface of musical exploration, where every note played is tonally and harmonically linked. The arpeggiator lets you explore new melodies and find ideas quickly, while the mutate function reconstructs your patterns into exciting new forms. Custom Modes simplify the relationship between controller and software, with more power than ever in your hands.",
-    image: "src/assets/key1.webp",
+    image: key1,
     make: "Novation",
   },
 ];

@@ -1,7 +1,10 @@
+// src/components/ProductPage.js
+
 import React from "react";
 import { useParams } from "react-router-dom";
+import products from "../products";
 
-const ProductPage = ({ products, addToCart }) => {
+const ProductPage = ({ addToCart }) => {
   const { productName } = useParams();
   const product = products.find((p) => p.name === productName);
 
