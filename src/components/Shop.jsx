@@ -4,13 +4,15 @@ import products from "../products";
 
 const Shop = () => {
   return (
-    <div>
+    <div className="card-container">
       {products.map((product) => (
-        <div key={product.name}>
+        <div key={product.name} className='product-card'>
           <Link to={`/product/${product.name}`}>
+          
             <img src={product.image} alt={product.name} />
-            <h3>{product.name}</h3>
-            <p>${product.price}</p>
+            <h4>{product.make}</h4>
+            <p>{product.name}</p>
+            <h3>${product.price}</h3>
           </Link>
         </div>
       ))}

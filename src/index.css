@@ -1,3 +1,9 @@
+/* -- */
+
+* {
+  /*border: solid blue 1px;*/
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -26,14 +32,14 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  min-width: 500px;
   min-height: 100vh;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: white;
 }
 
 button {
@@ -78,22 +84,26 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 nav {
   background-color: #333;
-  padding: 10px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  height: min-content;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 nav ul li {
-  display: inline;
-  margin-right: 10px;
+  margin-right: 30px;
 }
 
 nav ul li a {
@@ -112,20 +122,28 @@ nav ul li a {
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 20px;
+  width: 400px;
+  min-width: 300px;
+  background-color: white;
+  margin: 20px;
 }
 
 .product-card img {
   width: 100%;
-  max-height: 200px;
-  object-fit: cover;
+  max-height: 400px;
+  min-height: 400px;
+  object-fit: scale-down;
 }
 
-.product-card h3 {
+.product-card h3,
+.product-card h4 {
   margin: 10px 0;
+  color: black;
 }
 
 .product-card p {
   margin: 0;
+  color: black;
 }
 
 .cart-item {
@@ -152,4 +170,19 @@ nav ul li a {
   cursor: pointer;
   color: red;
   margin-left: auto;
+}
+
+.content {
+  padding: 50px;
+  background-color: #535bf2;
+}
+.card-container {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  color: white;
+  margin: 0;
 }

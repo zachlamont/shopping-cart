@@ -4,8 +4,8 @@ import products from "../products";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Awesome Shop</h1>
+    <div className="content">
+      <h1>Music at Your Fingertips. <br></br> Get it Fast. </h1>
     </div>
   );
 };
