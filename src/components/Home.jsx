@@ -5,13 +5,15 @@ import products from "../products";
 const Home = () => {
   return (
     <div className="content">
-      <video autoPlay loop muted>
-  <source
-    src="https://www.youtube.com/embed/_qAWGvIcFoc"
-    type="video/mp4"
-  />
-  Your browser does not support the video tag.
-</video>
+      <iframe
+  title="YouTube Video"
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/_qAWGvIcFoc"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
       <h1>
         Music at Your Fingertips. <br></br> Get it Fast.{" "}
       </h1>
