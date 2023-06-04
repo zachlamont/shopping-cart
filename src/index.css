@@ -50,9 +50,10 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: #1f4ae7;
+  color: white;
   cursor: pointer;
   transition: border-color 0.25s;
-  margin-top:30px;
+  margin-top: 30px;
 }
 button:hover {
   border-color: #646cff;
@@ -71,7 +72,8 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #1f4ae7;
+    color: white;
   }
 }
 
@@ -147,32 +149,6 @@ nav ul li a {
   color: black;
 }
 
-.cart-item {
-  display: flex;
-  align-items: center;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
-.cart-item img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  margin-right: 10px;
-}
-
-.cart-item input {
-  width: 50px;
-}
-
-.delete-icon {
-  cursor: pointer;
-  color: red;
-  margin-left: auto;
-}
-
 .content {
   padding: 50px;
   background-color: #535bf2;
@@ -206,7 +182,6 @@ nav ul li a {
   flex: 1 1 300px; /* Expands to fill available space, with a minimum width of 300px */
   margin: 50px;
   min-width: 300px;
-  
 }
 
 .product-description {
@@ -215,4 +190,55 @@ nav ul li a {
 
 .price {
   font-size: 2rem;
+}
+
+.cart-container {
+  background-color: white;
+  padding:20px;
+}
+.cart-item {
+  display: flex;
+
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  
+
+  background-color: white;
+}
+
+.cart-image {
+  width: 20%;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.cart-item-name {
+  flex: 1;
+  width: 50%;
+}
+
+.cart-item input {
+  width: 50px;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: red;
+  margin-left: auto;
+}
+
+.cart-item-price
+ {
+  width: 10%;
+  margin-left:20px;
+}
+.cart-item-quantity{
+  margin-left: 10px;
+}
+
+.cart-item-button {
+  width: 100px;
+  margin-left: 20px;
+  margin-top:-3px;
 }
