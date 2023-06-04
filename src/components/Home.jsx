@@ -5,10 +5,8 @@ import backgroundImg from "../assets/background.jpg";
 
 const Home = () => {
   return (
-    <div
-      className="content"
-      style={{ backgroundImage: `url(${backgroundImg})` }}
-    >
+    <div className="content">
+     <img src={backgroundImg} alt="Background" />
       <h1>
         Music at Your Fingertips. <br /> Get it Fast.
       </h1>
