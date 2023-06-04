@@ -12,8 +12,6 @@ import Cart from "./components/Cart";
 import products from "./products";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   const [cartItems, setCartItems] = useState([]);
 
   const addToCart = (product) => {
@@ -34,6 +32,8 @@ function App() {
     } else {
       setCartItems([...cartItems, { product, quantity: 1 }]);
     }
+    // Show an alert indicating that the product has been added to the cart
+    alert(`${product.name} has been added to your cart!`);
   };
 
   const removeFromCart = (product) => {
@@ -58,7 +58,6 @@ function App() {
 
   return (
     <>
-
       <BrowserRouter>
         <Navbar />
         <Routes>

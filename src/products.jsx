@@ -45,7 +45,6 @@ const products = [
       'A professional large capsule (1") versatile studio microphone incorporating three-position pick-up patterns, PAD and high pass filter switches conveniently located on the body. The frequency and transient response has been voiced to complement todays modern recording techniques, and yet still evoke the silky smooth character of the legendary microphones of the 50s and 60s. Package includes SM6 shock mount with integrated pop filter, 3m (10") XLR cable and dustcover.',
     image: mic1,
     make: "RODE",
-    
   },
   {
     name: "Novation Launchkey 49 MKIII Controller Keyboard",

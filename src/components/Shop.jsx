@@ -6,9 +6,8 @@ const Shop = () => {
   return (
     <div className="card-container">
       {products.map((product) => (
-        <div key={product.name} className='product-card'>
+        <div key={product.name} className="product-card">
           <Link to={`/product/${product.name}`}>
-          
             <img src={product.image} alt={product.name} />
             <h4>{product.make}</h4>
             <p>{product.name}</p>
