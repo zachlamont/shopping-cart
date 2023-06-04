@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="content">
       <video autoPlay loop muted>
-        <source src={"src/assets/vid1.mp4"} type="video/mp4" />
+        <source src={"../assets/vid1.mp4"} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <h1>
